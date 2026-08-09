@@ -1,0 +1,55 @@
+### === Secrets / env files (never commit real values) ===
+.env
+.env.*
+!.env.example
+!*/.env.example
+
+### === Node (client/ + server/) ===
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Vite
+client/.vite/
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+### === Python (backend/) ===
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+uv.lock.bak
+
+### === App runtime data (generated at run time, not source) ===
+backend/data/raw/*
+backend/data/cleaned/*
+backend/data/charts/*
+!backend/data/raw/.gitkeep
+!backend/data/cleaned/.gitkeep
+!backend/data/charts/.gitkeep
+
+### === Logs ===
+*.log
+logs/
