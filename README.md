@@ -38,20 +38,7 @@ In dev, Vite proxies the browser's requests: `/api/auth/*` → the Node server
    synthesizer") turns the trace into a polished narrative. Every step and
    chart streams to the UI live.
 
-## Prerequisites
 
-- **Node.js** ≥ 18 and npm — for `client/` and `server/`
-- **[uv](https://docs.astral.sh/uv/)** — for `backend/` (manages its own
-  Python ≥ 3.11 install)
-  ```bash
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
-- **MongoDB** database (e.g. a free MongoDB Atlas cluster)
-- **Redis** instance (local, or a free Redis Cloud instance)
-- A **Gemini API key** ([Google AI Studio](https://aistudio.google.com/apikey))
-- A **Gmail account with an App Password** (for OTP password-reset emails) —
-  requires 2-Step Verification enabled on the Gmail account, then generate
-  an App Password under Google Account → Security.
 
 ## Setup
 
