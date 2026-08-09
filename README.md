@@ -165,6 +165,15 @@ Agent-Data-Analyst/
 - CORS on the FastAPI backend currently allows all origins
   (`allow_origins=["*"]`) — tighten this before deploying publicly.
 
-## License
+## Screenshots
 
-Add your license of choice here.
+![Home page](images/datahome.png)
+![Home page (2)](images/datahome2.png)
+![Register page](images/dataregister.png)
+![Login page](images/datalogin.png)
+![Upload dataset](images/dataupload.png)
+![Upload dataset (2)](images/dataupload1.png)
+![Analysis result](images/dataresult1.png)
+![Analysis result (2)](images/dataresult2.png)
+![Analysis result (3)](images/dataresult3.png)
+
