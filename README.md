@@ -38,20 +38,7 @@ In dev, Vite proxies the browser's requests: `/api/auth/*` → the Node server
    synthesizer") turns the trace into a polished narrative. Every step and
    chart streams to the UI live.
 
-## Prerequisites
 
-- **Node.js** ≥ 18 and npm — for `client/` and `server/`
-- **[uv](https://docs.astral.sh/uv/)** — for `backend/` (manages its own
-  Python ≥ 3.11 install)
-  ```bash
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
-- **MongoDB** database (e.g. a free MongoDB Atlas cluster)
-- **Redis** instance (local, or a free Redis Cloud instance)
-- A **Gemini API key** ([Google AI Studio](https://aistudio.google.com/apikey))
-- A **Gmail account with an App Password** (for OTP password-reset emails) —
-  requires 2-Step Verification enabled on the Gmail account, then generate
-  an App Password under Google Account → Security.
 
 ## Setup
 
@@ -165,6 +152,7 @@ Agent-Data-Analyst/
 - CORS on the FastAPI backend currently allows all origins
   (`allow_origins=["*"]`) — tighten this before deploying publicly.
 
+<<<<<<< HEAD
 ## Screenshots
 
 ![Home page](images/datahome.png)
@@ -176,4 +164,6 @@ Agent-Data-Analyst/
 ![Analysis result](images/dataresult1.png)
 ![Analysis result (2)](images/dataresult2.png)
 ![Analysis result (3)](images/dataresult3.png)
+=======
+>>>>>>> 5f7a03c8fe3a4a7086c5ec0495654804fb92beaf
 
