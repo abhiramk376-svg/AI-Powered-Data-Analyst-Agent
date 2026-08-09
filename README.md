@@ -171,14 +171,9 @@ Agent-Data-Analyst/
 ![Home page (2)](images/datahome2.png)
 ![Register page](images/dataregister.png)
 ![Login page](images/datalogin.png)
-![Upload dataset](images/dataupload.png)
-![Upload dataset (2)](images/dataupload1.png)
+![Upload dataset](images/datauplod.png)
+![Upload dataset (2)](images/datauplod1.png)
 ![Analysis progress](images/dataprogress.png)
 ![Analysis result](images/dataresult1.png)
 ![Analysis result (2)](images/dataresult2.png)
 ![Analysis result (3)](images/dataresult3.png)
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 756d30855e0011b40cd5e23f5d31f9f34271bb4d
