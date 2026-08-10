@@ -58,7 +58,7 @@ In dev, Vite proxies the browser's requests: `/api/auth/*` → the Node server
 Clone the repo, then configure each service's environment.
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/abhiramk376-svg/AI-Powered-Data-Analyst-Agent>
 cd Agent-Data-Analyst
 ```
 
@@ -149,21 +149,6 @@ Agent-Data-Analyst/
     └── app/redis_client.py  # session state + chat history
 ```
 
-## Security notes
-
-- **Never commit `.env` files.** Only the `.env.example` files (no real
-  secrets) are tracked in git.
-- If you ever accidentally commit real credentials, rotate them
-  immediately (Redis, MongoDB, Gemini, Gmail App Password, `JWT_SECRET`) —
-  removing the file in a later commit does not remove it from git history.
-- The code sandbox (`backend/app/sandbox/`) isolates analyst-generated code
-  in a separate OS subprocess with a timeout, but is **not a hardened
-  security boundary** — it's suitable for local/personal use, not for
-  running untrusted code from unknown users in production. For that, use a
-  real sandbox (gVisor, nsjail, or a locked-down container with no network
-  egress).
-- CORS on the FastAPI backend currently allows all origins
-  (`allow_origins=["*"]`) — tighten this before deploying publicly.
 
 ## Screenshots
 
