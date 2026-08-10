@@ -120,30 +120,3 @@ data-analyst-pro-react/
         └── DataTable.jsx
 ```
 
-## 📝 Customization
-
-### Adding New Artifact Types
-
-Extend the `ArtifactPanel` to support additional tabs:
-
-```jsx
-const tabs = [
-  { id: 'visualizations', label: 'Visualizations' },
-  { id: 'data', label: 'Data Preview' },
-  { id: 'code', label: 'Generated Code' },  // NEW
-];
-```
-
-### Theming
-
-Toggle dark mode by adding/removing the `dark` class on `<html>`:
-
-```js
-document.documentElement.classList.toggle('dark');
-```
-
-All colors are defined with `dark:` variants in Tailwind config.
-
-## 📄 License
-
-MIT
