@@ -1,4 +1,4 @@
-# DataAnalyst Pro - React Frontend
+# DataAnalyst Agent - React Frontend
 
 A modern, conversational AI-powered data analysis dashboard built with **React**, **Tailwind CSS**, and **Vite**.
 
